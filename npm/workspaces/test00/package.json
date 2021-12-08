@@ -1,22 +1,12 @@
 {
-  "name": "npmtest",
+  "name": "test00",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "workspaces": [
-    "project",
-    "a",
-    "b",
-    "cores"
-  ],
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "a": "1.0.0"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC"
 }
