@@ -1,5 +1,5 @@
 {
-  "name": "test0",
+  "name": "a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,16 +7,9 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "packages/a",
-    "packages/b",
-    "../test00"
-  ],
   "dependencies": {
-    "a": "file:packages/a",
-    "test00": "file:../test00"
+    "b": "1.0.0"
   }
 }
