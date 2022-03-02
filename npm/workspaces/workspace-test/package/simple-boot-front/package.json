@@ -1,5 +1,5 @@
 {
-  "name": "test0",
+  "name": "simple-boot-front",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,17 +7,10 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "packages/a",
-    "packages/b",
-    "../test00",
-    "../test01"
-  ],
   "dependencies": {
-    "a": "file:packages/a",
-    "test00": "file:../test00"
+    "simple-boot-core": "^1.0.29",
+    "subpackage": "^1.0.0"
   }
 }

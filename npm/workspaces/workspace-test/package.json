@@ -1,0 +1,24 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "package\\simple-boot-core",
+    "package\\simple-boot-front",
+    "package\\subpackage",
+    "package\\subpackagetta"
+  ],
+  "dependencies": {
+    "simple-boot-core": "^1.0.0",
+    "simple-boot-front": "^1.0.0",
+    "subpackage": "^1.0.0",
+    "subpackagetta": "^1.0.0"
+  }
+}

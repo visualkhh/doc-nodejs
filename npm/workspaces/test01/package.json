@@ -1,23 +1,16 @@
 {
-  "name": "test0",
+  "name": "test01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": [
-    "packages/a",
-    "packages/b",
-    "../test00",
-    "../test01"
-  ],
   "dependencies": {
-    "a": "file:packages/a",
-    "test00": "file:../test00"
+    "test00": "1.0.0"
   }
 }

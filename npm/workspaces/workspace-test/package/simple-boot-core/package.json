@@ -1,14 +1,11 @@
 {
-  "name": "test00",
-  "version": "1.0.0",
+  "name": "simple-boot-core",
+  "version": "1.0.29",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-  }
+  "license": "ISC"
 }
