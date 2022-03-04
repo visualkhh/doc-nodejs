@@ -1,0 +1,14 @@
+{
+  "name": "webworker_thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "promise.js",
+  "scripts": {
+    "start": "node promise.js",
+    "normal1": "node getEnvironmentData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
